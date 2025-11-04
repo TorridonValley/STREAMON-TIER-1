@@ -37,19 +37,19 @@ function cleanM3u(filePath) {
   content = content.trim() + '\n';
   
   fs.writeFileSync(filePath, content);
-  console.log('Basic cleanup of mystique.m3u completed');
+  console.log('Basic cleanup of free.m3u completed');
 }
 
 const filePath = process.argv[2];
 
 if (!filePath) {
-  console.error('Please provide the path to mystique.m3u');
+  console.error('Please provide the path to free.m3u');
   process.exit(1);
 }
 
 try {
   cleanM3u(filePath);
 } catch (error) {
-  console.error('Error cleaning mystique.m3u:', error.message);
+  console.error('Error cleaning free.m3u:', error.message);
   process.exit(1);
 }
