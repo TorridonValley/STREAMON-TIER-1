@@ -1,5 +1,8 @@
 name: M3U Lint and Sort
 
+permissions:
+  contents: write
+  
 on:
   push:
     paths:
