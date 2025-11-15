@@ -37,19 +37,19 @@ function cleanM3u(filePath) {
   content = content.trim() + '\n';
   
   fs.writeFileSync(filePath, content);
-  console.log('Basic cleanup of free.m3u completed');
+  console.log('Basic cleanup of StreamOn-T1.m3u completed');
 }
 
 const filePath = process.argv[2];
 
 if (!filePath) {
-  console.error('Please provide the path to free.m3u');
+  console.error('Please provide the path to StreamOn-T1.m3u');
   process.exit(1);
 }
 
 try {
   cleanM3u(filePath);
 } catch (error) {
-  console.error('Error cleaning free.m3u:', error.message);
+  console.error('Error cleaning StreamOn-T1.m3u:', error.message);
   process.exit(1);
 }
