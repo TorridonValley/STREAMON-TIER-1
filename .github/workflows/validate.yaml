@@ -6,7 +6,7 @@ permissions:
 on:
   push:
     paths:
-      - 'free.m3u'
+      - 'StreamOn-T1'
   workflow_dispatch:
 
 jobs:
@@ -22,13 +22,13 @@ jobs:
           node-version: '20'
 
       - name: Basic M3U cleanup
-        run: node .github/scripts/cleanup-m3u.js free.m3u
+        run: node .github/scripts/cleanup-m3u.js StreamOn-T1
         
       - name: Sort M3U file
-        run: node .github/scripts/sort-m3u.js free.m3u
+        run: node .github/scripts/sort-m3u.js StreamOn-T1
 
       - name: Split into country playlists
-        run: node .github/scripts/countries.js free.m3u
+        run: node .github/scripts/countries.js StreamOn-T1
 
 
 
