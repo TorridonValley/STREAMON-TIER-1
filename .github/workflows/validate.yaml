@@ -27,8 +27,8 @@ jobs:
       - name: Sort M3U file
         run: node .github/scripts/sort-m3u.js StreamOn-T1
 
-      - name: Split into country playlists
-        run: node .github/scripts/countries.js StreamOn-T1
+      - name: Split into group playlists
+        run: node .github/scripts/groups.js StreamOn-T1
 
 
 
