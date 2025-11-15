@@ -2,12 +2,11 @@
 <p align="center">
   <img src="https://github.com/TorridonValley/STREAMON-TIER-1/blob/main/StreamOn.jpg?raw=true" width="200" alt="StreamOn Project Banner">
 </p>
-## About
 
+## About this tier
 StreamOn Tier 1 provides a great collection of channels from around the world. The channels are organised in groups for easy access/selection.
 
 ## Features
-
 1. **Complete Playlist**: Use the main `free.m3u` file for access to all channels
 2. **Provider Groups**: Individual playlists are available in the `groups/` directory
 3. **VOD**: A wide collection of films are available on demand here!
