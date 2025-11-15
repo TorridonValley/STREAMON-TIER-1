@@ -11,7 +11,7 @@ const { URL } = require('url');
 class M3UChecker {
     constructor() {
         // Configuration
-        this.M3U_FILE = 'free.m3u';
+        this.M3U_FILE = 'StreamOn-T1.m3u';
         this.REQUEST_TIMEOUT = 10000; // 10 seconds
         this.MAX_RETRIES = 2;
         this.DELAY_BETWEEN_REQUESTS = 1000; // 1 second
